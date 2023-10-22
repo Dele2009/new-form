@@ -46,6 +46,7 @@ body{
     padding: 10px 10px 140px 10px;
     border: none;
     border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .bn{
     width: 98%;
@@ -77,11 +78,14 @@ input[type="file"]{
 #cap{
     background: white;
     text-align: center;
+    align-items: center;
+    justify-content: center;
     width: 30%;
     padding: 10px;
     position: relative;
     left: 34%;
     top: 50px;
+    font-size: 13px;
 }
 input[type="submit"]{
     position: absolute;
