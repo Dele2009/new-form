@@ -88,10 +88,10 @@ input[type="file"]{
     font-size: 13px;
 }
 input[type="submit"]{
-    position: absolute;
-    left: 63%;
+    position: relative;
+    left: 85%;
     bottom: ;
-    top: 275%;
+    top: 130px;
     background-color: purple;
     color: white;
     border: none;
