@@ -1,7 +1,8 @@
 body{
     background: rgba(31, 0, 44, 255);
-    padding-bottom: 120px;
+    padding-bottom: 300px;
     padding-top: 120px;
+    
 }
 #oo{
     text-align: center;
@@ -11,25 +12,26 @@ body{
     font-family: 'Nosifer', sans-serif;
     font-size: 330%;
     color: rgba(204, 180, 212, 255);
+    position: relative;
+    top: -18px;
+   
+    right: 500px;
+    
+    /* margin-bottom: 40px; */
 }    
 #ok{
     width: fit-content;
-    /* margin: 0px auto; */
     font-family: 'Lemonada', cursive;
-    font-size: 500%;
+    font-size: 600%;
     color: rgba(204, 180, 212, 255);
 
 }
 .fd{
     background-image: url(glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg);
     background-repeat: no-repeat;
-    /* background-position: 50px 80px ; */
     background-size: cover;
     width: 100%;
     height: 700px;
-    
-    
-    /* margin: 0px auto; */
 }
 .image-overlay{
     width: 100%;
@@ -47,6 +49,7 @@ body{
     border: none;
     border-radius: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    z-index: 5;
 }
 .bn{
     width: 98%;
@@ -86,17 +89,19 @@ input[type="file"]{
     left: 34%;
     top: 50px;
     font-size: 13px;
+   
 }
 input[type="submit"]{
     position: relative;
     left: 85%;
-    bottom: ;
     top: 130px;
     background-color: purple;
     color: white;
     border: none;
     border-radius: 10px;
     font-size: 16px;
+    z-index: ;
+    
 }
 #head{
     background: purple;
@@ -105,6 +110,8 @@ input[type="submit"]{
     position: fixed;
     top: 0px;
     left: 0px;
+    z-index: 9;
+   
 }
 .yh{
     background: purple;
@@ -126,4 +133,53 @@ input[type="submit"]{
     padding: 20px 30px;
     border: none;
     border-radius: 10px;
-}        
+} 
+nav{
+    position: fixed;
+    top: 8px;
+    left: 750px;
+    background: none;
+    width: 100%;
+    
+    margin: 20px 20px;
+
+    
+}
+nav ul li{
+    display: inline-flex;
+    margin: 0px 5px;
+    color: rgba(204, 180, 212, 255);
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 10px;
+
+}
+nav ul li a{
+    text-decoration: none;
+
+    
+   
+    
+    
+}
+#sl:hover{
+    background: rgb(66, 2, 66);
+    padding: 10px 5px;
+    box-shadow: 0px 0px 20px rgb(46, 1, 46);
+}
+.fa-solid{
+    margin: 15px;
+    
+    text-align: center;
+}
+.fa-solid:hover{
+    background: rgb(66, 2, 66);
+    border-radius: 20px;
+    padding: 10px;
+}
+#fl{
+    color: rgba(204, 180, 212, 255);
+    text-decoration: none;
+}
+
+      
